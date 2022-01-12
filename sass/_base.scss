@@ -8,10 +8,10 @@ $dark-blue: hsl(238, 29%, 16%);
 $soft-red: hsl(14, 88%, 65%);
 
 $dark-gray: hsl(237, 12%, 33%);
-$medium-gray: hsl(240,6%,50%);
+$medium-gray: hsl(240, 6%, 50%);
 
 // divider
-$light-gray: hsl(240, 6%,91%);
+$light-gray: hsl(240, 6%, 91%);
 
 // background gradient
 $soft-violet: hsl(273, 75%, 66%);
@@ -20,14 +20,14 @@ $soft-blue: hsl(240, 73%, 65%);
 /*----------------------------
 typography
 ----------------------------*/
-//CHANGE TO CHALLENGE TYPOGRAPHY
 body {
-    font-size: 12px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    overflow-x: hidden;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: $dark-gray;
 }
 
 button {
-    border: none;
+  border: none;
 }

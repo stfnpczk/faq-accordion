@@ -2,24 +2,68 @@
  layout
 ----------------------------*/
 body {
+  display: flex;
+  justify-content: center;
   background: linear-gradient($soft-violet, $soft-blue);
 }
 
 .page-wrapper {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
 }
 /*----------------------------
       card section 
  ----------------------------*/
 
- .card {
-   background-color: white;
-   width: 279px;
-   height: 363px;
-   border-radius: 23px;
-   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-   margin: 148px 24px 85px;
-   padding: 132px 24px 48px;
- }
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 279px;
+  border-radius: 23px;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  margin: 148px 24px 85px;
+  padding: 132px 24px 48px;
+
+  &__heading {
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: $dark-blue;
+    margin: 0 0 38px 0;
+  }
+
+  &__question {
+    list-style: none;
+    position: relative;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: url(../images/icon-arrow-down.svg);
+    position: absolute;
+    right: 0;
+  }
+  details[open] summary:after {
+    // content: url(../images/icon-arrow-down.svg);
+    transform: rotate(180deg);
+  }
+
+  details[open] &__question {
+    font-weight: 700;
+  }
+
+  &__answer {
+    margin-top: 12px;
+    line-height: 18px;
+    color: $medium-gray;
+  }
+
+  &__transition {
+    margin: 19px 0 19px 0;
+    border-top: 2px $light-gray;
+  }
+}
