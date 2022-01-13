@@ -1,5 +1,5 @@
 /*----------------------------
- layout
+ layout and images
 ----------------------------*/
 body {
   display: flex;
@@ -10,6 +10,27 @@ body {
 .page-wrapper {
   min-height: 100vh;
 }
+
+.card__img-woman {
+  background: url(../images/illustration-woman-online-mobile.svg) no-repeat top;
+  position: absolute;
+  background-size: 236.85px 179.57px;
+  width: 236.85px;
+  height: 179.57px;
+  top: -108px;
+  left: 45px;
+}
+
+.card__img-shadow {
+  background: url(../images/bg-pattern-mobile.svg) no-repeat top;
+  position: absolute;
+  // background-size: 240px 145px;
+  width: 240px;
+  height: 145px;
+  top: 0;
+  left: 44px;
+}
+
 /*----------------------------
       card section 
  ----------------------------*/
@@ -17,6 +38,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: white;
   width: 279px;
   border-radius: 23px;
