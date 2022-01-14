@@ -5,30 +5,62 @@ body {
   display: flex;
   justify-content: center;
   background: linear-gradient($soft-violet, $soft-blue);
+  min-height: 100vh;
+  // @media only screen and (min-width: 1440px) {
+  //   align-items: center;
+  // }
 }
 
 .page-wrapper {
-  min-height: 100vh;
+  position: relative;
 }
 
 .card__img-woman {
-  background: url(../images/illustration-woman-online-mobile.svg) no-repeat top;
+  background: url(../images/illustration-woman-online-mobile.svg);
   position: absolute;
-  background-size: 236.85px 179.57px;
   width: 236.85px;
   height: 179.57px;
   top: -108px;
   left: 45px;
+
+  @media only screen and (min-width: 1440px) {
+    background: url(../images/illustration-woman-online-desktop.svg);
+    width: 472px;
+    height: 359px;
+    top: 70px;
+    left: -84px;
+    z-index: 2;
+  }
 }
 
 .card__img-shadow {
-  background: url(../images/bg-pattern-mobile.svg) no-repeat top;
+  background: url(../images/bg-pattern-mobile.svg) no-repeat;
   position: absolute;
-  // background-size: 240px 145px;
   width: 240px;
   height: 145px;
-  top: 0;
+  top: 0px;
   left: 44px;
+
+  @media only screen and (min-width: 1440px) {
+    background: url(../images/bg-pattern-desktop.svg) ;
+    width: 967px;
+    height: 944px;
+    top: -294px;
+    left: -576px;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .card__img-box {
+    background: url(../images/illustration-box-desktop.svg) no-repeat;
+    position: absolute;
+    width: 191px;
+    height: 184px;
+    top: 335.12px;
+    left: 188px;
+    z-index: 3;
+  }
 }
 
 /*----------------------------
@@ -43,8 +75,17 @@ body {
   width: 279px;
   border-radius: 23px;
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-  margin: 148px 24px 85px;
   padding: 132px 24px 48px;
+  margin: 148px 24px 85px;
+
+  @media only screen and (min-width: 1440px) {
+    display: flex;
+    align-items: flex-end;
+    width: 825px;
+    padding: 65px 95px 83px 0;
+    margin: 129px 239px 130px 281px;
+    overflow: hidden;
+  }
 
   &__heading {
     text-align: center;
@@ -53,11 +94,23 @@ body {
     font-weight: 700;
     color: $dark-blue;
     margin: 0 0 38px 0;
+
+    @media only screen and (min-width: 1440px) {
+      text-align: left;
+      margin: 0 0 43px 0;
+    }
   }
 
   &__question {
     list-style: none;
     position: relative;
+    font-size: 13px;
+    line-height: 16.12px;
+
+    @media only screen and (min-width: 1440px) {
+      font-size: 14px;
+      line-height: 17.36px;
+    }
   }
 
   summary::-webkit-details-marker {
@@ -67,7 +120,7 @@ body {
   summary::after {
     content: url(../images/icon-arrow-down.svg);
     position: absolute;
-    right: 0;
+    right: 16px;
   }
   details[open] summary:after {
     // content: url(../images/icon-arrow-down.svg);
@@ -85,7 +138,14 @@ body {
   }
 
   &__transition {
+    // 18px?
     margin: 19px 0 19px 0;
     border-top: 2px $light-gray;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    &__accordion {
+      width: 350px;
+    }
   }
 }
