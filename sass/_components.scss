@@ -82,7 +82,7 @@ body {
     display: flex;
     align-items: flex-end;
     width: 825px;
-    padding: 65px 95px 83px 0;
+    padding: 65px 95px 50px 0;
     margin: 129px 239px 130px 281px;
     overflow: hidden;
   }
@@ -97,7 +97,7 @@ body {
 
     @media only screen and (min-width: 1440px) {
       text-align: left;
-      margin: 0 0 43px 0;
+      margin: 0 0 35px 0;
     }
   }
 
@@ -143,8 +143,8 @@ body {
 
   &__transition {
     // 18px?
-    margin: 19px 0 19px 0;
-    border-top: 2px $light-gray;
+    margin: 18px 0 18px 0;
+    border-top: 1px $light-gray;
   }
 
   @media only screen and (min-width: 1440px) {
