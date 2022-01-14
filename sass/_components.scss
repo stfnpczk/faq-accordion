@@ -18,17 +18,17 @@ body {
 .card__img-woman {
   background: url(../images/illustration-woman-online-mobile.svg);
   position: absolute;
-  width: 236.85px;
-  height: 179.57px;
-  top: -108px;
-  left: 45px;
+  width: 14.8031rem;
+  height: 11.2231rem;
+  top: -6.75rem;
+  left: 2.8125rem;
 
   @media only screen and (min-width: 1440px) {
     background: url(../images/illustration-woman-online-desktop.svg);
-    width: 472px;
-    height: 359px;
-    top: 70px;
-    left: -84px;
+    width: 29.5rem;
+    height: 22.4375rem;
+    top: 4.375rem;
+    left: -5.25rem;
     z-index: 2;
   }
 }
@@ -36,17 +36,17 @@ body {
 .card__img-shadow {
   background: url(../images/bg-pattern-mobile.svg) no-repeat;
   position: absolute;
-  width: 240px;
-  height: 145px;
-  top: 0px;
-  left: 44px;
+  width: 15rem;
+  height: 9.0625rem;
+  top: 0;
+  left: 2.75rem;
 
   @media only screen and (min-width: 1440px) {
-    background: url(../images/bg-pattern-desktop.svg) ;
-    width: 967px;
-    height: 944px;
-    top: -294px;
-    left: -576px;
+    background: url(../images/bg-pattern-desktop.svg);
+    width: 60.4375rem;
+    height: 59rem;
+    top: -18.375rem;
+    left: -36rem;
     z-index: 1;
   }
 }
@@ -55,10 +55,10 @@ body {
   .card__img-box {
     background: url(../images/illustration-box-desktop.svg) no-repeat;
     position: absolute;
-    width: 191px;
-    height: 184px;
-    top: 335.12px;
-    left: 188px;
+    width: 11.9375rem;
+    height: 11.5rem;
+    top: 21.0075rem;
+    left: 11.75rem;
     z-index: 3;
   }
 }
@@ -72,40 +72,40 @@ body {
   flex-direction: column;
   position: relative;
   background-color: white;
-  width: 279px;
-  border-radius: 23px;
-  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-  padding: 132px 24px 48px;
-  margin: 148px 24px 85px;
+  width: 17.4375rem;
+  border-radius: 1.4375rem;
+  box-shadow: 0rem 3.125rem 3.125rem -1.25rem rgba(53, 18, 122, 0.497159);
+  padding: 8.25rem 1.5rem 3rem;
+  margin: 9.25rem 1.5rem 5.3125rem;
 
   @media only screen and (min-width: 1440px) {
     display: flex;
     align-items: flex-end;
-    width: 825px;
-    padding: 65px 95px 50px 0;
-    margin: 129px 239px 130px 281px;
+    width: 51.5625rem;
+    padding: 4.0625rem 5.9375rem 3.125rem 0;
+    margin: 8.0625rem 14.9375rem 8.125rem 17.5625rem;
     overflow: hidden;
   }
 
   &__heading {
     text-align: center;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-weight: 700;
     color: $dark-blue;
-    margin: 0 0 38px 0;
+    margin: 0 0 2.375rem 0;
 
     @media only screen and (min-width: 1440px) {
       text-align: left;
-      margin: 0 0 35px 0;
+      margin: 0 0 2.1875rem 0;
     }
   }
 
   &__question {
     list-style: none;
     position: relative;
-    font-size: 13px;
-    line-height: 16.12px;
+    font-size: 0.8125rem;
+    line-height: 1.0075rem;
     cursor: pointer;
 
     &:hover {
@@ -113,8 +113,8 @@ body {
     }
 
     @media only screen and (min-width: 1440px) {
-      font-size: 14px;
-      line-height: 17.36px;
+      font-size: 0.875rem;
+      line-height: 1.085rem;
     }
   }
 
@@ -125,7 +125,7 @@ body {
   summary::after {
     content: url(../images/icon-arrow-down.svg);
     position: absolute;
-    right: 16px;
+    right: 1rem;
   }
   details[open] summary:after {
     transform: rotate(180deg);
@@ -136,20 +136,20 @@ body {
   }
 
   &__answer {
-    margin-top: 12px;
-    line-height: 18px;
+    margin-top: 0.75rem;
+    line-height: 1.125rem;
     color: $medium-gray;
   }
 
   &__transition {
-    // 18px?
-    margin: 18px 0 18px 0;
-    border-top: 1px $light-gray;
+    border: none;
+    border-top: 0.0625rem solid $light-gray;
+    margin: 1.125rem 0 1.125rem 0;
   }
 
   @media only screen and (min-width: 1440px) {
     &__accordion {
-      width: 350px;
+      width: 21.875rem;
     }
   }
 }
