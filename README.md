@@ -10,7 +10,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -18,7 +17,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -36,23 +34,18 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- [Frontend Mentor - solution URL](https://your-solution-url.com)
+- [Live Demo](https://github.com/stfnpczk/pod-request-landing-page)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- BEM notation
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
