@@ -106,6 +106,11 @@ body {
     position: relative;
     font-size: 13px;
     line-height: 16.12px;
+    cursor: pointer;
+
+    &:hover {
+      color: $soft-red;
+    }
 
     @media only screen and (min-width: 1440px) {
       font-size: 14px;
@@ -123,7 +128,6 @@ body {
     right: 16px;
   }
   details[open] summary:after {
-    // content: url(../images/icon-arrow-down.svg);
     transform: rotate(180deg);
   }
 
