@@ -29,15 +29,12 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-<br>
 
 ### Links
 
 - [Frontend Mentor - solution URL](https://www.frontendmentor.io/solutions/faq-accordion-card-ORIwESVw-
 )
 - [Live Demo](https://stfnpczk.github.io/pod-request-landing-page/)
-
-<br>
 
 ## My process
 
@@ -53,13 +50,7 @@ Users should be able to:
 ### What I learned
 
 - Aligning and taking into account the different overlays of the images keeps being challenging.
-
-<br>
-
 - `<details> disclosure` : element used to show (hide) info, toggling open(close) state
-
-
-<br>
 
 ### Continued development
 

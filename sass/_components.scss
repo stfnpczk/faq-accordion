@@ -6,8 +6,8 @@ body {
   justify-content: center;
   background: linear-gradient($soft-violet, $soft-blue);
   min-height: 100vh;
-  // @media only screen and (min-width: 1440px) {
-  //   align-items: center;
+  // @media only screen and (min-width: 1024px) {
+    align-items: center;
   // }
 }
 
@@ -23,7 +23,7 @@ body {
   top: -6.75rem;
   left: 2.8125rem;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     background: url(../images/illustration-woman-online-desktop.svg);
     width: 29.5rem;
     height: 22.4375rem;
@@ -41,7 +41,7 @@ body {
   top: 0;
   left: 2.75rem;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     background: url(../images/bg-pattern-desktop.svg);
     width: 60.4375rem;
     height: 59rem;
@@ -51,7 +51,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
   .card__img-box {
     background: url(../images/illustration-box-desktop.svg) no-repeat;
     position: absolute;
@@ -78,7 +78,7 @@ body {
   padding: 8.25rem 1.5rem 3rem;
   margin: 9.25rem 1.5rem 5.3125rem;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     display: flex;
     align-items: flex-end;
     width: 51.5625rem;
@@ -95,7 +95,7 @@ body {
     color: $dark-blue;
     margin: 0 0 2.375rem 0;
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1024px) {
       text-align: left;
       margin: 0 0 2.1875rem 0;
     }
@@ -112,7 +112,7 @@ body {
       color: $soft-red;
     }
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1024px) {
       font-size: 0.875rem;
       line-height: 1.085rem;
     }
@@ -148,7 +148,7 @@ body {
     margin: 1.125rem 0 1.125rem 0;
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     &__accordion {
       width: 21.875rem;
     }
