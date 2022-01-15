@@ -18,7 +18,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,12 +29,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-
+<br>
 
 ### Links
 
-- [Frontend Mentor - solution URL](https://your-solution-url.com)
-- [Live Demo](https://github.com/stfnpczk/pod-request-landing-page)
+- [Frontend Mentor - solution URL](https://www.frontendmentor.io/solutions/faq-accordion-card-ORIwESVw-
+)
+- [Live Demo](https://stfnpczk.github.io/pod-request-landing-page/)
+
+<br>
 
 ## My process
 
@@ -44,56 +46,36 @@ Users should be able to:
 - Semantic HTML5 markup
 - BEM notation
 - Flexbox
+- SCSS
 - Mobile-first workflow
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Aligning and taking into account the different overlays of the images keeps being challenging.
 
-To see how you can add code snippets, see below:
+<br>
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- `<details> disclosure` : element used to show (hide) info, toggling open(close) state
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+<br>
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In a further iteration, I'll add some animation to the opening/closing of the detail element and add some js making it close, when an other detail item is clicked.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+<br>
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [details docs --> MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
+- [customize detail marker --> stack overflow](https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary?noredirect=1&lq=1) 
+- [styling  details --> tutsplus.com](https://webdesign.tutsplus.com/tutorials/explaining-the-details-and-summary-elements--cms-21999)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+<br>
 
 ## Author
+- Frontend Mentor - [@stfnpczk](https://www.frontendmentor.io/profile/stfnpczk)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
