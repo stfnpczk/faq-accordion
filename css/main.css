@@ -531,6 +531,8 @@ body {
   content: url(../images/icon-arrow-down.svg);
   position: absolute;
   right: 1rem;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .card details[open] summary:after {
